@@ -16,20 +16,45 @@
     <h1>“好多肉”在线点餐系统</h1>
 
     <div id="items">
-        把`loadAllItems()`中的菜品信息以动态加载的方式显示在这里，并且能够让用户输入数量
+        <p class="headline">菜单信息</p>
+        <table id="itemsTable">
+            <tr class="tableRow">
+                <td>编号</td>
+                <td>名称</td>
+                <td>价格</td>
+                <td>数量</td>
+            </tr>
+        </table>
     </div>
 
+    <br/>
+
     <div id="promotions">
-        把`loadPromotions()`中的优惠信息以动态加载的方式显示在这里，让用户看到即可
+        <p class="headline">优惠信息</p>
+        <table id="promotionsTable">
+            <tr>
+                <td class="promotion">折扣1 &nbsp;</td>
+                <td id="promotion1"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="promotion">折扣2 &nbsp;</td>
+                <td id="promotion2"></td>
+            </tr>
+        </table>
     </div>
+
+    <br/>
 
     <div>
         <button onclick="calculatePrice()">结算</button>
-        <button onclick="clear()">清除</button>
+        <button onclick="clearInfo()">清除</button>
     </div>
 
     <pre id="message">
-        /* 请将结算后产生的汇总字符串显示在这里 */
+
     </pre>
 
 </body>

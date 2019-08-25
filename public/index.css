@@ -1,11 +1,39 @@
-/* 
-请把与index.html页面相关的css代码写在这里
-同时删除该注释
-*/
+#items{
 
-/* #message只是一个示例，可以删除 */
+}
+
+#itemsTable{
+	 text-align: center;
+	 border: 1px solid red;
+}
+
+#promotionsTable{
+	color: blue;
+	border: 1px solid red;
+}
+
+.headline{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.tableRow{
+	color: #339933;
+    font-size: 18px;
+	font-weight: bold;
+}
+
+.promotion{
+	color: #339933;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.inputItemNum{
+	width: 50px;
+}
+
 #message {
 	height: 30px;
 	line-height: 30px;
-	border: 1px solid red;
 }
