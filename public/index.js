@@ -1,4 +1,4 @@
-window.onload=function loadAllItemsInfo(){
+window.onload = function loadAllItemsInfo(){
   showItems();
   showPromotions();
 };
@@ -33,8 +33,13 @@ function showPromotions() {
 
 function calculatePrice() {
   let selectedItemsInfo = getSelectedItemsInfo();
-  let bestChargeByWhich = bestCharge(selectedItemsInfo);
-  document.getElementById("message").innerHTML = printBill(selectedItemsInfo,bestChargeByWhich);
+  if(checkInput(selectedItemsInfo)){
+    let bestChargeByWhich = bestCharge(selectedItemsInfo);
+    document.getElementById("message").innerHTML = printBill(selectedItemsInfo,bestChargeByWhich);
+  }else {
+    alert("请输入信息");
+  }
+
 }
 
 function clearInfo() {
@@ -54,7 +59,12 @@ function getSelectedItemsInfo() {
       selectedItemsInfo.push({id:itemsInfo[i].id, name:itemsInfo[i].name, price:itemsInfo[i].price, count:itemNum})
     }
   }
+
   return selectedItemsInfo;
+}
+
+function checkInput(selectedItemsInfo) {
+  return selectedItemsInfo.length > 0;
 }
 
 function calculateTotalPriceWithoutDiscount(selectedItemsInfo) {
