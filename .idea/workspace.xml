@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffb292bd-eb64-459f-bc9c-57027d1f1f20" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run-specs.html" beforeDir="false" afterPath="$PROJECT_DIR$/run-specs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/best-charge-spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/spec/best-charge-spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/best-charge.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/best-charge.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="33" column="34" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="34" />
+            <state relative-caret-position="135">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#920#926#0" expanded="true" />
               </folding>
@@ -27,19 +31,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/index.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run-specs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            <state relative-caret-position="135">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/best-charge.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
               <folding>
-                <element signature="e#41#79#0" />
-                <element signature="n#!!block;n#showItems#0" />
-                <element signature="n#!!block;n#showPromotions#0" />
-                <element signature="n#!!block;n#calculatePrice#0" />
-                <element signature="n#!!block;n#clearInfo#0" />
-                <element signature="n#!!block;n#getSelectedItemsInfo#0" />
-                <element signature="n#!!block;n#f#0" />
+                <element signature="n#!!block;n#bestCharge#0" />
+                <element signature="n#!!block;n#minus6IfFull30#0" />
+                <element signature="n#!!block;n#halfPriceForSpecificItems#0" />
+                <element signature="n#!!block;n#checkInput#0" />
                 <element signature="n#!!block;n#calculateTotalPriceWithoutDiscount#0" />
                 <element signature="n#!!block;n#printBill#0" />
                 <element signature="n#!!block;n#printBillByFirstDiscount#0" />
@@ -48,6 +58,42 @@
                 <element signature="n#!!block;n#getOrderFoodDetails#0" />
                 <element signature="n#!!block;n#getOneLineOrderFoodDetails#0" />
                 <element signature="n#!!block;n#getHalfPriceItemsName#0" />
+                <element signature="n#!!block;n#printOutputForTest#0" />
+                <element signature="n#!!block;n#inputByRequest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/best-charge-spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="837">
+              <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run-test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
+              <folding>
+                <element signature="n#!!block;n#showItems#0" />
+                <element signature="n#!!block;n#showPromotions#0" />
+                <element signature="n#!!block;n#calculatePrice#0" />
+                <element signature="n#!!block;n#clearInfo#0" />
+                <element signature="n#!!block;n#getSelectedItemsInfo#0" />
               </folding>
             </state>
           </provider>
@@ -64,16 +110,24 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>trim</find>
+      <find>innerHTML</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/best-charge.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/index.css" />
+        <option value="$PROJECT_DIR$/run-specs.html" />
         <option value="$PROJECT_DIR$/public/index.js" />
+        <option value="$PROJECT_DIR$/spec/best-charge-spec.js" />
+        <option value="$PROJECT_DIR$/src/best-charge.js" />
       </list>
     </option>
   </component>
@@ -87,17 +141,18 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2181" />
-    <option name="y" value="56" />
-    <option name="width" value="1080" />
-    <option name="height" value="690" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="270" />
+    <option name="y" value="171" />
+    <option name="width" value="1620" />
+    <option name="height" value="1035" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -125,7 +180,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -133,7 +187,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tdd-parking-lot-cli-2019-8-22-2-40-45-164" />
+    <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -162,17 +217,27 @@
       <updated>1566709710278</updated>
       <workItem from="1566709711637" duration="19568000" />
       <workItem from="1566746561928" duration="586000" />
+      <workItem from="1566780639481" duration="4144000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20154000" />
+    <option name="totallyTimeSpent" value="24298000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16452442" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16678597" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -181,11 +246,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32749325" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32749325" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
@@ -236,9 +301,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spec/best-charge-spec.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/items.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -250,13 +312,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/best-charge.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -277,28 +332,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
+    <entry file="file://$PROJECT_DIR$/run-test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="34" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="34" />
-          <folding>
-            <element signature="e#920#926#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.js">
+    <entry file="file://$PROJECT_DIR$/src/best-charge.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        <state relative-caret-position="108">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
           <folding>
-            <element signature="e#41#79#0" />
-            <element signature="n#!!block;n#showItems#0" />
-            <element signature="n#!!block;n#showPromotions#0" />
-            <element signature="n#!!block;n#calculatePrice#0" />
-            <element signature="n#!!block;n#clearInfo#0" />
-            <element signature="n#!!block;n#getSelectedItemsInfo#0" />
-            <element signature="n#!!block;n#f#0" />
+            <element signature="n#!!block;n#bestCharge#0" />
+            <element signature="n#!!block;n#minus6IfFull30#0" />
+            <element signature="n#!!block;n#halfPriceForSpecificItems#0" />
+            <element signature="n#!!block;n#checkInput#0" />
             <element signature="n#!!block;n#calculateTotalPriceWithoutDiscount#0" />
             <element signature="n#!!block;n#printBill#0" />
             <element signature="n#!!block;n#printBillByFirstDiscount#0" />
@@ -307,6 +356,46 @@
             <element signature="n#!!block;n#getOrderFoodDetails#0" />
             <element signature="n#!!block;n#getOneLineOrderFoodDetails#0" />
             <element signature="n#!!block;n#getHalfPriceItemsName#0" />
+            <element signature="n#!!block;n#printOutputForTest#0" />
+            <element signature="n#!!block;n#inputByRequest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#920#926#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/best-charge-spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run-specs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="n#!!block;n#showItems#0" />
+            <element signature="n#!!block;n#showPromotions#0" />
+            <element signature="n#!!block;n#calculatePrice#0" />
+            <element signature="n#!!block;n#clearInfo#0" />
+            <element signature="n#!!block;n#getSelectedItemsInfo#0" />
           </folding>
         </state>
       </provider>
